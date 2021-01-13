@@ -3360,10 +3360,10 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-db@^1.0.30000700:
-  version "1.0.30000865"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30000865.tgz#82ffb64d40f7567620aac02d3a632079689abc6b"
-  integrity sha1-gv+2TUD3VnYgqsAtOmMgeWiavGs=
+caniuse-db@^1.0.30001176:
+  version "1.0.30001176"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001176.tgz#7b975497677faca74fb601d8abbcde3d3c0fb812"
+  integrity sha512-9zEzzqbFxSr4S1oEcYUMgVxuKHat/n+gjn3XuUbYYW+15m+XOX0KS4bVbDl/97Qt9f0gOyExazeAV0v6BNKhxg==
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000864, caniuse-lite@^1.0.30000888:
   version "1.0.30000889"
@@ -3740,7 +3740,7 @@ compressible@~2.0.14:
 
 compression@^1.5.2:
   version "1.7.2"
-  resolved "http://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
+  resolved "https://registry.npmjs.org/compression/-/compression-1.7.2.tgz#aaffbcd6aaf854b44ebb280353d5ad1651f59a69"
   integrity sha1-qv+81qr4VLROuygDU9WtFlH1mmk=
   dependencies:
     accepts "~1.3.4"
