@@ -1,0 +1,51 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "13:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: caniuse-db
+    versions:
+    - 1.0.30001181
+    - 1.0.30001183
+    - 1.0.30001185
+    - 1.0.30001187
+    - 1.0.30001189
+    - 1.0.30001191
+    - 1.0.30001192
+    - 1.0.30001194
+    - 1.0.30001196
+    - 1.0.30001197
+    - 1.0.30001198
+    - 1.0.30001199
+    - 1.0.30001200
+    - 1.0.30001202
+    - 1.0.30001204
+    - 1.0.30001205
+    - 1.0.30001207
+    - 1.0.30001208
+    - 1.0.30001214
+    - 1.0.30001216
+    - 1.0.30001218
+  - dependency-name: "@babel/preset-react"
+    versions:
+    - 7.12.10
+    - 7.12.13
+  - dependency-name: gatsby-remark-smartypants
+    versions:
+    - 2.9.0
+  - dependency-name: lodash-es
+    versions:
+    - 4.17.20
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
+  - dependency-name: prismjs
+    versions:
+    - 1.21.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
